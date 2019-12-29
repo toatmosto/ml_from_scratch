@@ -2,6 +2,7 @@ import numpy as np
 import heapq
 from collections import Counter
 
+
 class KNN(object):
     def __init__(self, num_neighbors: int):
         self.num_neighbors = num_neighbors
